@@ -17,10 +17,10 @@ There will be several things you can test:
 
 Please build an easy-to-use feature that you can:
 
-- Input your test information and start an A/B test
+- Input your test information and start an A/B test (for the webpage provided, you will be able to test any version of it, including price, title, description, and feature.)
 - Monitor A/B testing results
 
-There must be randomization logic and event tracking for a standard A/B testing practice.
+There must be randomization logic and event tracking for a standard A/B testing practice. 
 
 There will be two tracks for this interview:
 
