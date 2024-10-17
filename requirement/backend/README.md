@@ -18,7 +18,7 @@ Design a robust data storage solution that can handle event data at scale. You m
 Ensure that data aggregation for real-time dashboards and reports is efficient, allowing users to track A/B test performance and statistical significance in near real-time.
 Plan for efficient querying of both raw event data and pre-aggregated metrics, allowing users to drill down into specific tests or time frames without significant delay.
 
-If the implementaion of using the neccessary service is not possible in this project, you can provide a system design document instead.
+If the implementaion of using the neccessary service is not possible in this project, you can write a system design document instead.
 
 ### Fault Tolerance & Accuracy:
 
