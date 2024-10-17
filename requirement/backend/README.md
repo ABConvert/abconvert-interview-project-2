@@ -18,11 +18,14 @@ Design a robust data storage solution that can handle event data at scale. You m
 Ensure that data aggregation for real-time dashboards and reports is efficient, allowing users to track A/B test performance and statistical significance in near real-time.
 Plan for efficient querying of both raw event data and pre-aggregated metrics, allowing users to drill down into specific tests or time frames without significant delay.
 
+If the implementaion of using the neccessary service is not possible in this project, you can provide a system design document instead.
+
 ### Fault Tolerance & Accuracy:
 
 The system must be fault-tolerant, ensuring no data is lost even under heavy load or in the case of failures. Implement strategies such as replication, failover mechanisms, and retry policies to prevent data loss.
 Prioritize the accuracy of the data. Ensure that even under high traffic, events are not duplicated or lost. The integrity of the data is paramount for making accurate business decisions based on test results.
-Security & Compliance:
+
+### Security & Compliance:
 
 Since the system will handle large volumes of user data, ensure that all data processing complies with security best practices and regulations like GDPR or CCPA.
 Ensure that sensitive user data is handled securely, with appropriate encryption mechanisms and data access controls in place.
